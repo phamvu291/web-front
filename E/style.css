@@ -36,7 +36,7 @@
 
 }
 
-.main-new:hover{
+.main-new:hover, .extra-new-1:hover{
     transform: scale(1.06);
 }
 
@@ -75,6 +75,7 @@
     margin-top: auto;
 }
 .extra-new-1{
+    transition: all .3s ease .1s;
     display: flex;
     width: 100%;
     height: 60%;
